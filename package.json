@@ -1,0 +1,34 @@
+{
+  "name": "js-test-hw61-cypress",
+  "version": "0.0.1",
+  "description": "this is homework 61 for javascripts testing course",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "cypress run",
+    
+    "cy:test:mobile:chrome:headed": "cypress run --browser chrome --headed --config-file cypress.mobile.config.js",
+    "cy:test:mobile:chrome:headless": "cypress run --browser chrome --headless --config-file cypress.mobile.config.js",
+    "cy:test:mobile:edge:headed": "cypress run --browser edge --headed --config-file cypress.mobile.config.js",
+    "cy:test:mobile:edge:headless": "cypress run --browser edge --headless --config-file cypress.mobile.config.js",
+    
+    "cy:test:note:chrome:headed": "cypress run --browser chrome --headed --config-file cypress.note.config.js",
+    "cy:test:note:chrome:headless": "cypress run --browser chrome --headless --config-file cypress.note.config.js",
+    "cy:test:note:edge:headed": "cypress run --browser edge --headed --config-file cypress.note.config.js",
+    "cy:test:note:edge:headless": "cypress run --browser edge --headless --config-file cypress.note.config.js"
+  },
+  "keywords": [
+    "javascript",
+    "test",
+    "cypress",
+    "homework"
+  ],
+  "author": "rtm_wrk rtm_wrk@rambler.ru",
+  "license": "ISC",
+  "homepage": "https://github.com/rtmwrk/jst61#readme",
+  "bugs": {
+    "url": "https://github.com/rtmwrk/jst61/issues"
+  },
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
